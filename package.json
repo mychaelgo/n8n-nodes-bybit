@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-bybit",
+  "name": "@mychaelgo/n8n-nodes-bybit",
   "version": "1.0.0",
   "description": "A comprehensive n8n community node for Bybit cryptocurrency exchange providing 11 resources and 100+ operations for spot trading, derivatives, options, account management, and more. Includes Unified Trading Account support and polling triggers.",
   "license": "BUSL-1.1",

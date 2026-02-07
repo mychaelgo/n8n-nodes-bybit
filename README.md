@@ -34,17 +34,17 @@ A comprehensive n8n community node for **Bybit** cryptocurrency exchange, provid
 
 1. Go to **Settings** > **Community Nodes** in n8n
 2. Select **Install**
-3. Enter `n8n-nodes-bybit`
+3. Enter `@mychaelgo/n8n-nodes-bybit`
 4. Agree to the risks and click **Install**
 
 ### Manual Installation
 
 ```bash
 # Navigate to your n8n custom nodes directory
-cd ~/.n8n/custom
+cd ~/.n8n/nodes
+# or ~/.n8n/custom depending on your n8n setup
 
-# Clone or extract the node package
-npm install n8n-nodes-bybit
+npm install @mychaelgo/n8n-nodes-bybit
 ```
 
 ### Development Installation
@@ -326,6 +326,10 @@ For licensing inquiries:
 **https://github.com/mychaelgo**
 
 See [LICENSE](LICENSE), [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md), and [LICENSING_FAQ.md](LICENSING_FAQ.md) for details.
+
+## Publishing
+
+Releases are automatically published to npm via GitHub Actions. See [.github/PUBLISHING.md](.github/PUBLISHING.md) for setup (npm token, creating releases).
 
 ## Contributing
 
